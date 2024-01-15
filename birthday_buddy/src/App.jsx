@@ -8,7 +8,7 @@ const App = () => {
   return (
     <div className="min-h-[100vh] flex items-center justify-center">
       <section className="w-[90vw] my-20 mx-0 max-w-[600px] bg-white rounded py-6 px-8 shadow-md">
-        <h3 className="text-[2rem] text-center font-black mb-5">{person.length} birthdays today</h3>
+        <h3 className="text-[2rem] text-center font-black mb-5">{person.length} Birthdays Today</h3>
         <List person={person} />
         <button 
           type="button" 
